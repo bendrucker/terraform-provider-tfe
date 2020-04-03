@@ -82,6 +82,7 @@ func Provider() terraform.ResourceProvider {
 			"tfe_ssh_key":                    resourceTFESSHKey(),
 			"tfe_team":                       resourceTFETeam(),
 			"tfe_team_access":                resourceTFETeamAccess(),
+			"tfe_team_organization_member":   resourceTFETeamOrganizationMember(),
 			"tfe_team_member":                resourceTFETeamMember(),
 			"tfe_team_members":               resourceTFETeamMembers(),
 			"tfe_team_token":                 resourceTFETeamToken(),
